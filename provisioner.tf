@@ -11,6 +11,6 @@ resource "null_resource" "deploy_sh" {
     type        = "ssh"
     user        = "opc"
     host        = oci_core_instance.webserver2.public_ip
-    private_key = var.private_key
+    private_key = var.vm_private_key
   }  
 }
