@@ -12,14 +12,17 @@ Set up the variables below on Terraform Cloud or you can commit any number of *.
 - private_key
 - ssh_public_key
   
-This TF will provision:
+This .TF will provision:
 
 - 1 VCN
 - 1 Subnet
 - 1 Internet Gateway + Routing Table
 - 1 Security list + 3 Rules
 - 2 Linux instances according to the image ID.
-  
+
+Also
+- Configure the instance according to the script.
+
 Outputs:
 - Instances IP Addresses
 
