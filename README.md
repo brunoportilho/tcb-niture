@@ -9,8 +9,9 @@ Set up the variables below on Terraform Cloud or you can commit any number of *.
 - tenancy_ocid
 - user_ocid
 - fingerprint
-- private_key
+- private_key (terraform key)
 - ssh_public_key
+- vm_private_key
   
 This .TF will provision:
 
