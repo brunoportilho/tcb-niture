@@ -12,7 +12,7 @@ Set up the variables below on Terraform Cloud or you can commit any number of *.
 - private_key
 - ssh_public_key
   
-This script will create:
+This TF will provision:
 
 - 1 VCN
 - 1 Subnet
