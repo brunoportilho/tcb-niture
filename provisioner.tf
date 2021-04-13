@@ -8,9 +8,9 @@ resource "null_resource" "deploy_sh" {
         ]
     }
     connection {
-    type     = "ssh"
-    user     = "opc"
-    private_key = "${var.private_key}"
-    host     = oci_core_instance.webserver2.public_ip
+    type        = "ssh"
+    user        = "opc"
+    host        = oci_core_instance.webserver2.public_ip
+    private_key = var.private_key
   }  
 }
