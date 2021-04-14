@@ -6,6 +6,7 @@ variable "fingerprint" {}
 variable "private_key" {}
 variable "ssh_public_key" {}
 variable "vm_private_key" {}
+
 variable "ad_region_mapping" {
   type = map(string)
 

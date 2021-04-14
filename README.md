@@ -22,7 +22,7 @@ This .TF will provision:
 - 2 Linux instances according to the image ID.
 
 Also
-- Configure the instance according to the script.
+- Configures the instance according to the script.
 
 Outputs:
 - Instances IP Addresses
